@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.heading{
+    color: rgb(111, 218, 34);
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
+    text-shadow: 5px 8px 8px #ffe9c5;
+    margin: 20px 0 ;
+    font-family: 'Alkatra', cursive;
+}
+.image img {
+    width: 200px;
+    height: 150px;
+    margin: 26px;
+
+  
+  
+}
+.image{
+    display: flex;
+    justify-content: center;
+}
+p{
+    color: orange;
+    text-align: center;
+    font-size: large;
+    text-shadow: 2px 4px 3px #5cf366 ;
+    font-weight: bolder;
+
+}
