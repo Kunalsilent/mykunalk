@@ -12,6 +12,17 @@ const image2 = "https://picsum.photos/220/300 "
 const image3 = "https://picsum.photos/210/300 "
 const portfolio = "https://heykunal.vercel.app/"
 
+const heading ={
+  color: '#fa9191',
+  TextTransform:'capitalize',
+  textAlign:'center',
+    fontWeight: 'bold',
+    textShadow: '5px 8px 8px #ffe9c5',
+    margin: '20px 0' ,
+    fontFamily: "'Alkatra', cursive",
+  
+};
+
 ReactDom.render(
   //<>
   //  <h1> hii my name is {name}</h1>
@@ -23,7 +34,7 @@ ReactDom.render(
 
 
   <>
-    <h1 className="heading" contentEditable="true">{` hii my name ${name} ${last} and i m  ${age} years old `} </h1>           #--------templates literals
+    <h1 style={heading} contentEditable="true">{` hii my name ${name} ${last} and i m  ${age} years old `} </h1>           #--------templates literals
     <p  >
       current date is = {currdate}
     </p>
